@@ -4,7 +4,6 @@ applications:
   host: backlog-pal-cheerful-tasmanian-devil
   memory: 1G
   instances: 1
-  env:
-    REGISTRATION_SERVER_ENDPOINT: http://registration-pal-cheerful-tasmanian-devil.apps.pikes.pal.pivotal.io
   services:
   - tracker-backlog-database
+  - tracker-service-registry
